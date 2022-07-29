@@ -1,0 +1,165 @@
+.dashboard-container{
+    animation: fadeIn 1s forwards;
+}
+.tickets{
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  left: 4%;
+  background-color: #d3d3d3;
+
+  position: absolute;
+  top: 23%;
+  border: 10px outset white;
+  border-radius: 10px;
+
+  .tiktitle{
+    font-size: 25px;
+    text-align: center;
+    color: #003a70;
+    margin: 0;
+    margin-top: 20px;
+  }
+
+  MDBCardFooter{
+    padding: 10px;
+  }
+
+  .button{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    float:right;
+    padding: 10px;
+    border: 5px solid #b5c428;
+    border-radius: 15px;
+    font-size: 20px;
+    margin: 10px;
+    background-color: #003a70;
+    text-decoration: none;
+    color: white;
+
+    &:hover{
+      background-color: #b5c428;
+      color: black;
+      border: 5px solid #003a70;
+    }
+  }
+
+  .ticket{
+    font-weight: 600;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .response{
+    font-weight: 600;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: red;
+  }
+}
+
+.progress{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  right: 4%;
+  background-color: #d3d3d3;
+
+  position: absolute;
+  top: 25%;
+  border: 10px inset white;
+  border-radius: 10px;
+  
+
+  .tiktitle{
+    font-size: 25px;
+    text-align: center;
+    color: #003a70;
+    margin: 0;
+    margin-top: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+  }
+
+  MDBCardFooter{
+    padding: 10px;
+  }
+
+  .button{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    float:right;
+    padding: 10px;
+    border: 5px solid #b5c428;
+    border-radius: 15px;
+    font-size: 20px;
+    margin: 10px;
+    background-color: #003a70;
+    text-decoration: none;
+    color: white;
+
+    &:hover{
+      background-color: #b5c428;
+      color: black;
+      border: 5px solid #003a70;
+    }
+  }
+
+  .open,.hold,.completed{
+    font-weight: 400;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: 600;
+    padding-bottom: 1px;
+    
+  }
+}
+
+.submit{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 20px;
+  left: 40%;
+  background-color: #d3d3d3;
+
+  position: absolute;
+  top: 77%;
+  border: 10px groove white;
+  border-radius: 10px;
+
+  .button{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    padding: 10px;
+    border: 5px solid #b5c428;
+    border-radius: 15px;
+    font-size: 20px;
+    margin: 10px;
+    background-color: #003a70;
+    text-decoration: none;
+    color: white;
+
+    &:hover{
+      background-color: #b5c428;
+      color: black;
+      border: 5px solid #003a70;
+    }
+  }
+
+
+  .tiktitle{
+    font-size: 25px;
+    text-align: center;
+    color: #003a70;
+    margin: 0;
+    margin-top: 20px;
+
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  .buttonContainer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 27%;
+  }
+}
