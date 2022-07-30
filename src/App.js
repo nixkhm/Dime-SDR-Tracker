@@ -5,6 +5,7 @@ import Tickets from "./components/Tickets";
 import Progress from "./components/Progress";
 import Contact from "./components/Contact";
 import Machine from "./components/Machine";
+import "./App.scss";
 
 function App() {
   return (

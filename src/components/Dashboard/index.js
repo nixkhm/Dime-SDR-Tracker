@@ -17,7 +17,7 @@ const Dashboard = () => {
       <div className="dashboard-container">
         <MDBCard className="tickets">
           <MDBCardBody>
-            <MDBCardTitle className="tiktitle">My Open Request</MDBCardTitle>
+            <MDBCardTitle className="tiktitle">My Open Requests</MDBCardTitle>
             <MDBCardText className="ticket">
               SDR #106672 - Conection to Printer Needed
             </MDBCardText>
