@@ -1,4 +1,4 @@
-import './index.scss'
+import "./index.scss";
 import {
   MDBCard,
   MDBCardBody,
@@ -6,10 +6,10 @@ import {
   MDBCardFooter,
   MDBCardHeader,
   MDBCardTitle,
-} from 'mdb-react-ui-kit'
-import { Link } from 'react-router-dom'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faDiamond, faExclamation } from '@fortawesome/free-solid-svg-icons'
+} from "mdb-react-ui-kit";
+import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faDiamond, faExclamation } from "@fortawesome/free-solid-svg-icons";
 
 const Dashboard = () => {
   return (
@@ -17,7 +17,7 @@ const Dashboard = () => {
       <div className="dashboard-container">
         <MDBCard className="tickets">
           <MDBCardBody>
-            <MDBCardTitle className="tiktitle">My Open Requests</MDBCardTitle>
+            <MDBCardTitle className="tiktitle">My Open Request</MDBCardTitle>
             <MDBCardText className="ticket">
               SDR #106672 - Conection to Printer Needed
             </MDBCardText>
@@ -70,7 +70,7 @@ const Dashboard = () => {
         </MDBCard>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Dashboard
+export default Dashboard;
