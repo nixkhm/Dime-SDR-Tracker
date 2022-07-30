@@ -1,8 +1,7 @@
-import { Link, NavLink } from 'react-router-dom'
-import './index.scss'
-import Logo from '../../assets/imgs/dime.png'
-import sdr from '../../assets/imgs/SDR.png'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Link, NavLink } from "react-router-dom";
+import "./index.scss";
+import Logo from "../../assets/imgs/dime.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBarsProgress,
   faComments,
@@ -14,7 +13,7 @@ import {
   faTableColumns,
   faTicket,
   faUser,
-} from '@fortawesome/free-solid-svg-icons'
+} from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => (
   <div className="nav-bar">
@@ -55,6 +54,6 @@ const Navbar = () => (
       </NavLink>
     </nav>
   </div>
-)
+);
 
-export default Navbar
+export default Navbar;

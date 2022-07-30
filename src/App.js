@@ -4,8 +4,8 @@ import Dashboard from "./components/Dashboard";
 import Tickets from "./components/Tickets";
 import Progress from "./components/Progress";
 import Contact from "./components/Contact";
-import Machine from "./components/Machine";
 import "./App.scss";
+import "./index.css";
 
 function App() {
   return (
@@ -15,7 +15,6 @@ function App() {
           <Route index element={<Dashboard />} />
           <Route path="tickets" element={<Tickets />} />
           <Route path="progress" element={<Progress />} />
-          <Route path="machine" element={<Machine />} />
           <Route path="contact" element={<Contact />} />
         </Route>
       </Routes>
