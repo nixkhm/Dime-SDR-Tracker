@@ -1,7 +1,7 @@
 .chart1{
     animation: fadeIn 1s forwards;
     position: absolute;
-    top: 23%;
+    top: 20%;
     left: 7%;
     border: 15px ridge #b5c428;
     border-radius: 15px;
@@ -10,10 +10,19 @@
 
 .chart2{
     animation: fadeIn 1s forwards;
-
     position: absolute;
-    top: 23%;
+    top: 20%;
     right: 7%;
+    border: 15px ridge #b5c428;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.chart3{
+    animation: fadeIn 1s forwards;
+    position: absolute;
+    bottom: 1%;
+    right: 30%;
     border: 15px ridge #b5c428;
     border-radius: 15px;
     background-color: white;

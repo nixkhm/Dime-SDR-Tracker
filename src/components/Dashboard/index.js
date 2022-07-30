@@ -4,12 +4,9 @@ import {
   MDBCardBody,
   MDBCardText,
   MDBCardFooter,
-  MDBCardHeader,
   MDBCardTitle,
 } from "mdb-react-ui-kit";
 import { Link } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faDiamond, faExclamation } from "@fortawesome/free-solid-svg-icons";
 
 const Dashboard = () => {
   return (

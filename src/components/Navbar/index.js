@@ -5,14 +5,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faBarsProgress,
   faComments,
-  faComputer,
-  faDashboard,
-  faDesktop,
   faHome,
-  faPhone,
-  faTableColumns,
   faTicket,
-  faUser,
 } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => (
