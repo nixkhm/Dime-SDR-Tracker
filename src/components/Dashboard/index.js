@@ -16,7 +16,7 @@ const Dashboard = () => {
           <MDBCardBody>
             <MDBCardTitle className="tiktitle">My Open Requests</MDBCardTitle>
             <MDBCardText className="ticket">
-              SDR #106672 - Conection to Printer Needed
+              SDR #106672 - Connection to Printer Needed
             </MDBCardText>
             <MDBCardText className="ticket">
               SDR #106689 - Need to have Microsoft Access added to machine

@@ -19,7 +19,7 @@ const Tickets = () => {
       <tbody>
         <tr>
           <td>106695</td>
-          <td>Conection to printer requested in branch</td>
+          <td>Connection to printer requested in branch</td>
           <td>John Smith</td>
           <td>Nicholas Masters</td>
           <td>In Progress</td>

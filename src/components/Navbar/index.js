@@ -32,15 +32,6 @@ const Navbar = () => (
       <NavLink
         exact="true"
         activeclassname="active"
-        className="progress-link"
-        to="/progress"
-      >
-        <FontAwesomeIcon icon={faBarsProgress} color="#b5c428" />
-      </NavLink>
-
-      <NavLink
-        exact="true"
-        activeclassname="active"
         className="contact-link"
         to="/contact"
       >

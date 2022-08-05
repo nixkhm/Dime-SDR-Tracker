@@ -1,12 +1,12 @@
-import './index.scss'
+import "./index.scss";
 
 const Contact = () => {
   return (
     <>
       <div className="contact-form">
-        <h1> Submit A Ticket</h1>
+        <h1>Submit A Ticket</h1>
         <h2>Give Us A Call</h2>
-        <p>888-888-8888</p>
+        <p>Ext. 5290</p>
         <form>
           <ul>
             <li>
@@ -50,7 +50,7 @@ const Contact = () => {
         </ul>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;
