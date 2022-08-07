@@ -16,13 +16,13 @@ const Dashboard = () => {
           <MDBCardBody>
             <MDBCardTitle className="tiktitle">My Open Requests</MDBCardTitle>
             <MDBCardText className="ticket">
-              SDR #106672 - Connection to Printer Needed
+              SDR #106695 - Connection to printer requested in branch
             </MDBCardText>
             <MDBCardText className="ticket">
-              SDR #106689 - Need to have Microsoft Access added to machine
+              SDR #106660 - Please install Microsoft Access onto 5273-PC
             </MDBCardText>
             <MDBCardText className="ticket">
-              SDR #106695 - Backup Battery needs to be replaced
+              SDR #106540 - Backup battery needs to be replaced
             </MDBCardText>
             <MDBCardText className="response">
               You have two requests awaiting response
@@ -31,24 +31,6 @@ const Dashboard = () => {
           <MDBCardFooter>
             <Link to="/tickets" className="button">
               Go to Requests
-            </Link>
-          </MDBCardFooter>
-        </MDBCard>
-
-        <MDBCard className="progress">
-          <MDBCardBody>
-            <MDBCardTitle className="tiktitle">
-              Progress of My Requests
-            </MDBCardTitle>
-            <MDBCardText className="open">3 Requests Open</MDBCardText>
-            <MDBCardText className="hold">2 Request on Hold</MDBCardText>
-            <MDBCardText className="completed">
-              24 Requests Completed
-            </MDBCardText>
-          </MDBCardBody>
-          <MDBCardFooter>
-            <Link to="/progress" className="button">
-              Go to Progress
             </Link>
           </MDBCardFooter>
         </MDBCard>
